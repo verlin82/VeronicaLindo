@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #f1f0ed;
+}
+
+table {
+	display: table;
+	border-collapse: separate;
+	border-spacing: 10px;
+	border-color: gray;
+	font-family: calibri;
+	margin: 10px;
+}
+
+th {
+	height: 20px;
+	text-align: center;
+	padding: 10px;
+}
+
+td {
+	height: 10px;
+	width: 10px;
+	text-align: center;
+}
+
+img.silver {
+	width: 260px;
+	height: 200px;
+	margin:10px;
+}
+
+img.guld {
+	width: 260px;
+	height: 200px;
+	margin: 10px;
+}
+
+img.koppar {
+	width: 260px;
+	height: 200px;
+	margin: 10px;
+}
+
+nav {
+	background-color: #be8d2f;
+}
+	
+a 	{
+	color: #262219;
+	text-decoration: none;
+	padding: 3px;
+	font-family: calibri;
+}
+
+h1 {
+	color: #75736f;
+	font-family: calibri;
+}
+
+h2 {
+	color: #be8d2f;
+	font-family: calibri;
+}
+
+p {
+	font-family: calibri light;
+}
+
+aside {
+	text-align:right;
+}
+
+footer {
+	text-align:center;
+	font-family: calibri;
+	color: #e68655;
+	margin: 10px;
+}
+
+li {
+	font-family: calibri;
+}
+
+dl {
+	font-family: calibri;
+}
