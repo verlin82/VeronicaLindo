@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: calibri;
+	background-color: #d9d9d9;		
+}
+
+.page{
+	background-color: white;
+	border-radius: 5px;
+	margin: auto;
+	width: 960px;
+}
+
+fieldset{
+	border-radius: 10px;	
+	float: left;
+	margin: 20px;
+	margin-left: 80px;
+	display: block;		
+}
+
+legend{
+	color: #3176b1;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+img{
+	width: 300px;
+	height: 200px;
+}
+
+img.samyang {
+	width: 200px;
+	height: 100px;
+}
+
+input{
+	font-family: calibri;
+	border: 1px solid #6d6d6d;
+	outline: none;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+input[type=submit]{
+	background-color: #d0edfb;	
+}
+
+input[type=number]{
+	text-align: center;
+	width: 30px;
+}
+
+input[type=text]{
+	margin: 5px;
+}
+
+input[type=email]{
+	margin: 5px;
+}
+
+input[type=checkbox]{
+	margin-left: 20px;	
+}
+
+input[type=radio]{
+	margin-left: 20px;
+}
+
+select{
+	margin-left: 20px;
+}
+
+textarea {
+	margin-left:20px;
+	border: 1px solid #3176b1;
+	outline: none;
+	width: 35%;
+	height: 100px;
+}
+
+.skicka{
+	margin-left:20px;
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+h2{
+	color: #3176b1;
+	font-size: 20px;
+	padding: 15px;
+}
+
+h4{
+	color: #3176b1;
+	margin-left:20px;
+}
+
+p{
+	margin-left: 20px;
+}
+
+nav{
+	font-family: calibri;
+	font-size:20px;
+	text-align: center;
+	margin:20px;
+}
+
+nav::first-letter{
+	text-transform: uppercase;
+}
+
+a{
+	text-decoration: none;
+	color: #954eb2;
+}
+
+a:hover{
+	color: #3176b1;
+}	
+
+table{
+	margin: 5px;
+	border-radius: 10px;
+	font-family: calibri;
+	border-spacing: 10px;
+}
+
+th, td{
+	text-align:center;
+	border-bottom: 1px solid #999;
+	empty-cells: hide;
+}
+
+th{
+	padding: 10px;
+	text-transform: uppercase;
+	border-bottom: 2px solid #111111;
+	border-top: 1px solid #999;
+	
+}
+
+.tabort{
+	margin:20px;
+}
+
+.produkttext{
+	font-size:12px;
+	text-align: center;
+}
+
+.produktpris{
+	font-size: 16px;
+	font-weight: bold;
+	float: right;
+}
+
+.floating-box{	
+	display: inline-block;
+    width: 25%;
+	margin-left: 20px;
+}
+
+.kopknapp{
+	margin-left: 20px;
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+footer{
+		text-align: center;
+		color: #6d6d6d;
+		padding: 30px;
+		clear: both;
+}
+

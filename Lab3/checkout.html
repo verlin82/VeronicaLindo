@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="">
+		<title>Kundvagn</title>
+		<link href="stylesheet.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div class="page">
+		<h2>Steg 1: Kundvagn</h2>
+		<table>
+			<tr>
+				<th></th>
+				<th>Produkt</th>
+				<th>Antal</th>
+				<th>Fraktkostnad</th>
+				<th>Pris</th>
+				<th>Subtotal</th>
+				<th></th>
+			</tr>
+			<tr>
+				<td><img src="bilder/samyang10.jpg" class="samyang" alt="Samyang objektiv"/></td>
+				<td>Samyang, 12mm f/2,0 NCS CS svart till Sony E</td>
+				<td><input type="number" value="1"/></td>
+				<td>39:-</td>
+				<td>3.590,00:-</td>
+				<td>3.629,00:-</td>
+				<td><input type="submit" value="Ta bort" class="tabort"></td>
+			</tr>
+		</table>
+			<form>
+				<h2>Steg 2: Personuppgifter</h2>
+				<div class="floating-box">
+					<label for="personnummer">Personnummer:</label><br>
+					<input type="date" name="personnummer" id="personnummer" required/>
+				</div>				
+				<div class="floating-box">				
+					<label for="förnamn">Förnamn:</label><br>
+					<input type="text" name="förnamn" id="förnamn" required/>
+				</div>
+				<div class="floating-box">
+					<label for="efternamn">Efternamn:</label><br>
+					<input type="text" name="efternamn" id="efternamn" required/>
+				</div>
+				<div class="floating-box">
+					<label for="adress">Adress:</label><br>
+					<input type="text" name="adress" id="adress" required/>
+				</div>
+				<div class="floating-box">
+					<label for="postnummer">Postnummer:</label><br>
+					<input type="text" name="postnummer" id="postnummer" required/>
+				</div>
+				<div class="floating-box">				
+					<label for="ort">Ort:</label><br>
+					<input type="text" name="ort" id="ort" required/>
+				</div>
+				<div class="floating-box">
+					<label for="email">Email:</label><br>
+					<input type="email" name="email" id="email" required/>
+				</div>
+			</form>
+			<form>
+				<h2>Steg 3: Betalsätt</h2>				
+				<input type="checkbox" name="klarna" id="klarna" required/>
+				<label for="klarna">Klarna faktura</label><br>
+				
+				<input type="checkbox" name="bankkort" id="bankkort" required/>					
+				<label for="bankkort">Bankkort</label><br>
+				
+				<input type="checkbox" name="bank" id="bank" required/>							
+				<label for="bank">Direkt via bank</label><br>							
+			</form>
+			<form action="kvittosida.html">			
+				<input type="submit" value="Genomför köp" class="kopknapp" formaction="kvittosida.html"/>
+			</form>
+		<footer>Veronica Lindo Copyright 2016</footer>
+		</div>
+	</body>
+</html>
+
