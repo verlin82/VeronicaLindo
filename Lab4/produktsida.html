@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="sv">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="I lyxboxen finns allt du behöver för en perfekt helgfrukost. 
+		Vi har valt ut de allra bästa produkterna och det ända du behöver göra är att beställa så levereas frukostboxen direkt hem till dörren.">
+		<meta name="keywords" content="frukost, frukostbox, hemkörning, lyxboxen">
+		<meta name="author" content="Veronica Lindo">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>Frukostboxen | Lyxboxen</title>
+		<link rel="stylesheet" type="text/css" href="style/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="style/frukostboxen.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/bootstrap.js"></script>	
+	</head>
+	<body>
+		<div class="container" id="wrapper">
+			<!--En rad för hela headern-->
+			<header class="row">
+				<!--Loggan ska i xs-läge synas i en egen rad och tar upp 4 kolumner i sm-läge och större-->
+				<figure class="col-xs-12 col-sm-4">
+					<img src="bilder/logga.png" id="logga" alt="Logga Frukostboxen"/>
+				</figure>
+				<!--Dropdown menyn ska endast synas i xs-läge-->
+				<div class="dropdown visible-xs">
+					<a href="#" class="dropdown-toggle" id="navmobil" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Meny
+					<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="index.html">Hem</a></li>
+						<li><a href="varagardar.html">Våra gårdar</a></li>
+						<li><a href="kontaktaoss.html">Kontakta oss</a></li>
+						<li><a href="vartcafe.html">Vårt café</a></li>
+						<li><a href="blogg.html">Blogg</a></li>
+					</ul>
+				</div>
+				<!--Varukorg + medlemsknapp syns i en egen rad i xs-läge och tar upp 8 kolumner (tillsammans med nav) i sm-läge och större-->
+				<div class="col-xs-12 col-sm-8">
+					<a href="varukorg.html">
+						<img src="bilder/varukorg.jpg" id="varukorg" alt="Varukorg"/>
+					</a>
+					<form action="medlem.html">
+						<input type="submit" id="medlemsknapp" value="Bli medlem"/>	
+					</form>		
+					<!--Navigationen blir gömd när den kommer till xs-läge-->
+					<nav class="row hidden-xs">
+						<a href="index.html">Hem</a> |
+						<a href="varagardar.html">Våra gårdar</a> |
+						<a href="kontaktaoss.html">Kontakta oss</a> | 
+						<a href="vartcafe.html">Vårt café</a> | 
+						<a href="blogg.html">Blogg</a>  
+					</nav>				
+				</div>					
+			</header>
+			<ol class="breadcrumb">
+				<li><a href="index.html">Hem</a></li>
+				<li class="active">Lyxboxen</li>
+			</ol>	
+			<figure class="row"><!--Huvudbild ska ligga i de tolv kolumnerna-->
+				<img class="col-sm-12 huvudbild" src="bilder/lyxboxenbild.jpg" alt="Inspirationsbilder på innehållet i lyxboxen">			
+			</figure>
+			<section>
+				<h2>Lyxboxen</h2>				
+				<h6>Innehåll:</h6>
+				<div class="row">							
+					<ul class="col-sm-12">
+						<li>Smoothie med hallon, blåbär och acaibär,</li>
+						<li>Chiapudding med mangopuré.</li>
+						<li>Surdegsbröd med avokado och ägg.</li>
+						<li>Raw chokladkaka.</li>
+						<li>Kallpressad juice av grönkål, päron, citron och ingefära.</li>
+						<li>Bananpannkaka med kokosirap och färska bär.</li>						
+					</ul>
+				</div>
+				<h6>Tillval:</h6>
+				<div class="row">
+					<form class="col-xs-12 col-sm-9">
+						<input type="number" min="0">Glutenfri<br>
+						<input type="number" min="0">Laktosfri<br>
+						<input type="number" min="0">Nötfri<br>
+						<input type="number" min="0">Antal boxar
+					</form>
+					<figure class="col-sm-3">
+						<img src="bilder/kalender.jpg" id="kalenderbild" alt="En kalender där du bestämmer leveransdag">
+					</figure>
+				</div>
+				<h1 id="pris">99:-</h1>
+				<form action="varukorg.html">
+					<input type="submit" value="Köp nu" class="kopknapp2">
+				</form>	
+			</section>
+			<!--En rad för hela footern-->
+			<footer class="row">
+				<!--Adress + ikoner + kontakta oss knapp tar upp 4 kolumner i sm-läge eller större-->
+				<div class="col-sm-4 adressfalt">
+					<!--Adress, ikoner och kontakta oss knapp har egna rader i de 4 kolumnerna-->
+					<p class="row adress"><strong>The Company Café</strong><br> Linnégatan 25<br> 413 04 Göteborg<br> Tel: 031-56 78 90</p>
+					<figure class="row">
+						<img src="bilder/twitter.jpg" class="ikoner" alt="Twitter ikon">
+						<img src="bilder/facebook.png" class="ikoner" alt="Facebook ikon">
+						<img src="bilder/instagram.png" class="ikoner" alt="Instagram ikon">
+					</figure>
+					<form class="row" action="kontaktaoss.html">
+						<input type="submit" id="kontakt" value="Kontakta oss"/>
+					</form>
+				</div>
+				<!--Kartan tar upp 5 kolumner i sm-läge eller större-->
+				<figure class="col-sm-5">
+					<img src="bilder/karta.jpg" class="karta" alt="karta">
+				</figure>
+				<!--Loggorna tar upp 3 kolumner i sm-läge eller större och delas in i 3 olika rader-->
+				<div class="col-sm-3">
+					<figure class="row">
+						<img src="bilder/organic.png" class="loggor" alt="100% organic logga">
+						<img src="bilder/tryggehandel.png" class="loggor" alt="Trygg e-handel logga">
+					</figure>
+					<figure class="row">
+						<img src="bilder/klarna.png" class="loggaklarna" alt="Klarna logga">
+					</figure>
+					<figure class="row">
+						<img src="bilder/visa.png" class="loggavisa" alt="Visa logga">
+					</figure>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="sv">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Läs vår blogg och få inspiration. Vi ger dig bästa tipsen för att leva ett hälosamt liv.">
+		<meta name="keywords" content="frukost, hälsoblogg, inspiration">
+		<meta name="author" content="Veronica Lindo">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>Frukostboxen | Blogg</title>
+		<link rel="stylesheet" type="text/css" href="style/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="style/frukostboxen.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/bootstrap.js"></script>		
+	</head>
+	<body>	
+		<div class="container" id="wrapper">
+			<!--En rad för hela headern-->
+			<header class="row">
+				<!--Loggan ska i xs-läge synas i en egen rad och tar upp 4 kolumner i sm-läge och större-->
+				<figure class="col-xs-12 col-sm-4">
+					<img src="bilder/logga.png" id="logga" alt="Logga Frukostboxen"/>
+				</figure>
+				<!--Dropdown menyn ska endast synas i xs-läge-->
+				<div class="dropdown visible-xs">
+					<a href="#" class="dropdown-toggle" id="navmobil" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Meny
+					<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="index.html">Hem</a></li>
+						<li><a href="varagardar.html">Våra gårdar</a></li>
+						<li><a href="kontaktaoss.html">Kontakta oss</a></li>
+						<li><a href="vartcafe.html">Vårt café</a></li>
+						<li><a href="blogg.html">Blogg</a></li>
+					</ul>
+				</div>
+				<!--Varukorg + medlemsknapp syns i en egen rad i xs-läge och tar upp 8 kolumner (tillsammans med nav) i sm-läge och större-->
+				<div class="col-xs-12 col-sm-8">
+					<a href="varukorg.html">
+						<img src="bilder/varukorg.jpg" id="varukorg" alt="Varukorg"/>
+					</a>
+					<form action="medlem.html">
+						<input type="submit" id="medlemsknapp" value="Bli medlem"/>	
+					</form>		
+					<!--Navigationen blir gömd när den kommer till xs-läge-->
+					<nav class="row hidden-xs">
+						<a href="index.html">Hem</a> |
+						<a href="varagardar.html">Våra gårdar</a> |
+						<a href="kontaktaoss.html">Kontakta oss</a> | 
+						<a href="vartcafe.html">Vårt café</a> | 
+						<a href="blogg.html">Blogg</a>  
+					</nav>				
+				</div>					
+			</header>
+			<ol class="breadcrumb">
+				<li><a href="index.html">Hem</a></li>
+				<li class="active">Blogg</li>
+			</ol>		
+			<figure class="row"><!--Huvudbild ska ligga i de tolv kolumnerna-->
+				<img class="col-sm-12 huvudbild" src="bilder/bloggbild.jpg" alt="Inspirationsbilder till ett hälosamt liv">		
+			</figure>
+			<section>
+				<h2>Läs och inspireras i vår blogg!</h2>		
+				<p class="textsnutt">I vår blogg delar vi med oss av recept, videos,
+				ger inspiration till en hälosammare livsstil och tipsar om nya träningsformer.</p>		
+			</section>
+			<div class="row">
+				<video class="col-xs-12 col-sm-6 video" controls="controls">
+					<source src="../MEDIA-FILER/MrBean.webm" type="video/webm"/>
+					<source src="../MEDIA-FILER/MrBean.ogv" type="video/ogv"/>
+					<source src="../MEDIA-FILER/MrBean.mp4" type="video/mp4"/>
+					Your browser does not support the video tag.
+				</video>
+				<video class="col-xs-12 col-sm-6 video" controls="controls">
+					<source src="../MEDIA-FILER/Maldive3.webm" type="video/webm"/>
+					<source src="../MEDIA-FILER/Maldive2.ogv" type="video/ogv"/>
+					<source src="../MEDIA-FILER/Maldive3" type="video/mp4"/>
+					Your browser does not support the video tag.
+				</video>
+			</div>			
+			<!--En rad för hela footern-->
+			<footer class="row">
+				<!--Adress + ikoner + kontakta oss knapp tar upp 4 kolumner i sm-läge eller större-->
+				<div class="col-sm-4 adressfalt">
+					<!--Adress, ikoner och kontakta oss knapp har egna rader i de 4 kolumnerna-->
+					<p class="row adress"><strong>The Company Café</strong><br> Linnégatan 25<br> 413 04 Göteborg<br> Tel: 031-56 78 90</p>
+					<figure class="row">
+						<img src="bilder/twitter.jpg" class="ikoner" alt="Twitter ikon">
+						<img src="bilder/facebook.png" class="ikoner" alt="Facebook ikon">
+						<img src="bilder/instagram.png" class="ikoner" alt="Instagram ikon">
+					</figure>
+					<form class="row" action="kontaktaoss.html">
+						<input type="submit" id="kontakt" value="Kontakta oss"/>
+					</form>
+				</div>
+				<!--Kartan tar upp 5 kolumner i sm-läge eller större-->
+				<figure class="col-sm-5">
+					<img src="bilder/karta.jpg" class="karta" alt="karta">
+				</figure>
+				<!--Loggorna tar upp 3 kolumner i sm-läge eller större och delas in i 3 olika rader-->
+				<div class="col-sm-3">
+					<figure class="row">
+						<img src="bilder/organic.png" class="loggor" alt="100% organic logga">
+						<img src="bilder/tryggehandel.png" class="loggor" alt="Trygg e-handel logga">
+					</figure>
+					<figure class="row">
+						<img src="bilder/klarna.png" class="loggaklarna" alt="Klarna logga">
+					</figure>
+					<figure class="row">
+						<img src="bilder/visa.png" class="loggavisa" alt="Visa logga">
+					</figure>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
